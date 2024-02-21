@@ -847,7 +847,7 @@ The following errors are implemented:
 - [`InvalidFlowStepError`](#errors--descriptions--invalid-flow-step)
 - [`FlowStepInUseError`](#errors--descriptions--flow-step-in-use)
 - [`InvalidBoardAssociationError`](#errors--descriptions--invalid-board-association)
-
+## those are error descriptions.
 ##### <a name='errors--descriptions--todo-manager'></a> `TodoManagerError`
 
 Extends from `Error`.
