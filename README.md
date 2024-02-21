@@ -8,6 +8,14 @@ The aim of this library is, given a custom service, to provide a set of models a
 - A **Flow** is a collection of **FlowSteps**. That is: a collection of the possible states a task will "flow" through. Example: _{pending, WIP, done}_.
 - A **Board** is an instance of a flow. For example, we can have a _shoping list_, _reading list_ or _preparatives for the wedding_ as different boards with the same associated flow _{pending, in progress, done}_.
 
+##Turkish
+##Bu kütüphanenin amacı, özel bir hizmet verildiğinde, "yapılacak" görevleri yönetmek için bir dizi model ve hizmet sağlamaktır. Kütüphane modellemesi dört basit kavrama dayanmaktadır:
+
+##- **Görev**: Bir "yapılacak" görev. Örnek: _"Süt satın almak"_" bir görevdir.
+##- Görevin **FlowStep** veya durumu: Görevin hangi adımda veya durumda olduğu. Örnek olarak: bir görev _beklemede_, _devam eden çalışma_ veya _bitti_ olabilir.
+##- **Akış**, **FlowSteps**'in bir koleksiyonudur. Yani: bir görevin "akacağı" olası durumların bir koleksiyonu. Örnek: _{pending, WIP, done}.
+##- **Pano** bir akışın örneğidir. Örneğin, aynı ilişkili akışa (_{pending, in progress, done}) sahip farklı panolar olarak bir _alışveriş listesi_, _okuma listesi_ veya _düğün hazırlıkları_'na sahip olabiliriz.
+
 ### Index
 
 1. [Models](#models)
