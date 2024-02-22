@@ -9,8 +9,8 @@ The aim of this library is, given a custom service, to provide a set of models a
 - A **Board** is an instance of a flow. For example, we can have a _shoping list_, _reading list_ or _preparatives for the wedding_ as different boards with the same associated flow _{pending, in progress, done}_.
 
 ##Turkish
-##Bu kütüphanenin amacı, özel bir hizmet verildiğinde, "yapılacak" görevleri yönetmek için bir dizi model ve hizmet sağlamaktır. Kütüphane modellemesi dört basit kavrama dayanmaktadır:
-
+##Bu kütüphanenin amacı, özel bir hizmet verildiğinde, "yapılacak" görevleri yönetmek için bir dizi model ve hizmet sağlamaktır. Kütüphane modellemesi dört basit kavrama dayanmaktadır: 
+Bu kavramlardan en önemlisi "Akış" yani "FlowSteps" kısmıdır..
 ##- **Görev**: Bir "yapılacak" görev. Örnek: _"Süt satın almak"_" bir görevdir.
 ##- Görevin **FlowStep** veya durumu: Görevin hangi adımda veya durumda olduğu. Örnek olarak: bir görev _beklemede_, _devam eden çalışma_ veya _bitti_ olabilir.
 ##- **Akış**, **FlowSteps**'in bir koleksiyonudur. Yani: bir görevin "akacağı" olası durumların bir koleksiyonu. Örnek: _{pending, WIP, done}.
@@ -930,4 +930,4 @@ export class MyCustomInvalidActionError extends TodoManagerError {
   }
 }
 ```
-## End of ReadMe.
+## End of ReadMe...
