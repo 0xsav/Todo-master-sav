@@ -15,7 +15,7 @@ The aim of this library is, given a custom service, to provide a set of models a
 ##- Görevin **FlowStep** veya durumu: Görevin hangi adımda veya durumda olduğu. Örnek olarak: bir görev _beklemede_, _devam eden çalışma_ veya _bitti_ olabilir.
 ##- **Akış**, **FlowSteps**'in bir koleksiyonudur. Yani: bir görevin "akacağı" olası durumların bir koleksiyonu. Örnek: _{pending, WIP, done}.
 ##- **Pano** bir akışın örneğidir. Örneğin, aynı ilişkili akışa (_{pending, in progress, done}) sahip farklı panolar olarak bir _alışveriş listesi_, _okuma listesi_ veya _düğün hazırlıkları_'na sahip olabiliriz.
-
+##- **Indexler** Aşağıdadır.
 ### Index
 
 1. [Models](#models)
